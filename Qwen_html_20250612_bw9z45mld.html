@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>علی رضایی | توسعه‌دهنده وب</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Toggle Theme Button -->
+    <button id="themeToggle">🌞</button>
+
+    <!-- Header -->
+    <header class="hero">
+        <div class="overlay"></div>
+        <div class="content">
+            <h1>علی رضایی</h1>
+            <p>توسعه‌دهنده وب | طراح UI/UX</p>
+            <a href="#about" class="btn">درباره من</a> 
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2>درباره من</h2>
+        <p>من علی رضایی هستم، یک توسعه‌دهنده وب با علاقه زیاد به طراحی رابط کاربری و ساخت محصولات هوشمندانه.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section dark">
+        <h2>مهارت‌ها</h2>
+        <ul class="skills-list">
+            <li>HTML/CSS</li>
+            <li>JavaScript / React</li>
+            <li>Node.js</li>
+            <li>Figma / Adobe XD</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <h2>پروژه‌ها</h2>
+        <div class="project-slider">
+            <div class="project-card">
+                <h3>سامانه مدیریت کاربران</h3>
+                <p>یک سیستم مدیریت کاربران با React و Firebase</p>
+            </div>
+            <div class="project-card">
+                <h3>قالب وبلاگ شخصی</h3>
+                <p>یک قالب HTML/CSS جذاب برای وبلاگ شخصی</p>
+            </div>
+            <div class="project-card">
+                <h3>سایت فروشگاهی</h3>
+                <p>یک فروشگاه ساده با React و Redux</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section dark">
+        <h2>تماس با من</h2>
+        <form id="contactForm">
+            <input type="text" placeholder="نام شما" required>
+            <input type="email" placeholder="ایمیلتان" required>
+            <textarea placeholder="پیام شما..." required></textarea>
+            <button type="submit" class="btn">ارسال</button>
+        </form>
+        <p class="success-message" id="successMessage">پیام شما ارسال شد!</p>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p><a href="https://github.com">GitHub</a>  | <a href="https://linkedin.com">LinkedIn</a>  | <a href="mailto:you@example.com">ایمیل</a></p>
+        <p>&copy; 1403 - تمامی حقوق محفوظ است.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
